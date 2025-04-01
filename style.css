@@ -9,6 +9,7 @@ body {
     font-weight: <weight>;
     font-style: normal;
     line-height: 1,5;
+    margin: 0;
 }
 
 h1,
@@ -20,8 +21,10 @@ h3{
     font-style: normal;
 } 
 
-h4{
+.perex{
     font-style: italic;
+    font-style: light;
+    font-weight: <weight>;
 }
 
 h3{
@@ -35,6 +38,35 @@ h3{
     width: 300px;
 }
 
-.eiffelovka {
-    width: 300px 225px;
+.eiffelovka,
+.obluk,
+.louvre,
+.montmartre {
+    width: 32%;
+    border-radius: 8px;
 }
+
+.eiffelovka,
+.louvre {
+    float: right;
+}
+
+.obluk,
+.montmartre {
+    float: left;
+}
+
+.zahrady {
+    width: 100%;
+    border-radius: 8px;
+}
+
+section {
+    padding: 30px 50px;
+    background-color:  #ffffff;
+    margin: 20px;
+    border-radius: 12px;
+    width: 900px;
+
+}
+
