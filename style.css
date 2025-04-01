@@ -2,5 +2,39 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
+    color: rgb 255 99 71;
+    background-color: #cde4f9;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: 20px;
+    font-weight: <weight>;
+    font-style: normal;
+    line-height: 1,5;
+}
 
+h1,
+h2,
+h3{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} 
+
+h4{
+    font-style: italic;
+}
+
+h3{
+    color: #dc6aa1;
+}
+
+.foto-pariz {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+}
+
+.eiffelovka {
+    width: 300px 225px;
 }
