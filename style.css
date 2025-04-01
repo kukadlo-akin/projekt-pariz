@@ -8,27 +8,51 @@ body {
     font-optical-sizing: 20px;
     font-weight: <weight>;
     font-style: normal;
-    line-height: 1,5;
+    line-height: 1,4;
     margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-optical-sizing: 48px;
+}
+
+h2{
+    font-optical-sizing: 32px; 
 }
 
 h1,
 h2,
 h3{
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
+    font-weight: <weight>;
+    line-height: 1,2;
 } 
 
 .perex{
     font-style: italic;
     font-style: light;
     font-weight: <weight>;
+    color: #808080;
+    font-optical-sizing: 24px;
+}
+
+.autor{
+    color: #dc6aa1;
+    font-optical-sizing: 20px;
+    margin-bottom: 20px;
+}
+
+div{
+    text-align: center;
 }
 
 h3{
     color: #dc6aa1;
+    font-optical-sizing: 24px;
+    margin-top: 48px;
+
 }
 
 .foto-pariz {
@@ -67,6 +91,5 @@ section {
     margin: 20px;
     border-radius: 12px;
     width: 900px;
-
 }
 
