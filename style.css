@@ -2,23 +2,22 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
-    color: rgb 255 99 71;
+    color: rgb(8, 8, 8);
     background-color: #cde4f9;
     font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: 20px;
-    font-weight: <weight>;
+    font-size: 20px;
     font-style: normal;
-    line-height: 1,4;
+    line-height: 1.4;
     margin: 0;
 }
 
 h1 {
     text-align: center;
-    font-optical-sizing: 48px;
+    font-size: 48px;
 }
 
 h2{
-    font-optical-sizing: 32px; 
+    font-size: 32px; 
 }
 
 h1,
@@ -26,21 +25,19 @@ h2,
 h3{
     font-family: "Playfair Display", serif;
     font-style: normal;
-    font-weight: <weight>;
-    line-height: 1,2;
+    line-height: 1.2;
 } 
 
 .perex{
     font-style: italic;
-    font-style: light;
     font-weight: <weight>;
     color: #808080;
-    font-optical-sizing: 24px;
+    font-size: 24px;
 }
 
 .autor{
     color: #dc6aa1;
-    font-optical-sizing: 20px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -50,7 +47,7 @@ div{
 
 h3{
     color: #dc6aa1;
-    font-optical-sizing: 24px;
+    font-size: 24px;
     margin-top: 48px;
 
 }
@@ -66,30 +63,48 @@ h3{
 .obluk,
 .louvre,
 .montmartre {
-    width: 32%;
+    width: 300px;
+    height: 225px;
     border-radius: 8px;
 }
 
 .eiffelovka,
 .louvre {
     float: right;
+    margin: 0 20px 20px 20px;
 }
 
 .obluk,
 .montmartre {
     float: left;
+    margin: 0 20px 20px 0px;
+
 }
 
 .zahrady {
     width: 100%;
     border-radius: 8px;
+    margin: 20px 0;
 }
 
 section {
     padding: 30px 50px;
-    background-color:  #ffffff;
-    margin: 20px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 12px;
     width: 900px;
+    margin-bottom: 30px;
 }
 
+   /*  
+.hlavicka,
+.pamatky {
+    padding: 30px 50px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    width: 900px; 
+    margin-bottom: 30px;
+}*/ 
